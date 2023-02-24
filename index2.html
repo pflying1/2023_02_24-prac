@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <div id="root"></div>
+  <script>
+    let time = [["오전", "오후"],["1시", "2시", "3시", "4시", "5시", "6시", "7시", "8시", "9시", "10시", "11시", "12시"]]
+    let plan = ["청소하기", "공부하기", "게임하기", "책읽기", "음악듣기"]
+
+
+    let amEleven = document.createElement("div");
+    amEleven.textContent = time[0][0] + time[1][10] +":\n"+ plan[2];
+    root.appendChild(amEleven);
+
+    let amTwelven = document.createElement("div");
+    amTwelven.textContent = time[0][0] + time[1][11] +":\n"+ plan[3];
+    root.appendChild(amTwelven);
+
+  </script>
+</body>
+</html>
